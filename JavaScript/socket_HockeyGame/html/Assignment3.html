@@ -1,0 +1,100 @@
+
+<html>
+   <head>
+     <title>Assignment 3</title>
+
+      <style> 
+         body {
+            background: #dddddd;
+         }
+
+         .roundedRectangle {
+             height: 60px;
+             width: 60px;
+             margin-top: 30px;
+             margin-bottom: 50px;
+             background: black;
+             border-radius: 50%;
+             -moz-border-radius: 50%;
+             -webkit-border-radius: 50%;
+             border-style: solid;
+             border-width: 30px;
+             border-color: #778899;
+         }
+
+
+
+		 /*element selectors: */
+		 canvas {
+		    margin: 0px;
+			/*important here for padding to be 0 for mouse calculations */
+            padding: 0px; 
+		 }
+		 /* class selectors: */
+		 .canvas {            
+            background: #ffffff;
+            border: thin inset #aaaaaa;
+         }
+
+
+         /*id selectors: */
+		 
+         #canvas1 {
+         }
+		 #main{
+				width:1280px;
+				height:660px;
+				MARGIN-RIGHT: auto;
+				MARGIN-LEFT: auto;
+				}
+ 
+      </style>
+   </head>
+
+  <body>
+  <br></br>
+  <div style="display:inline-block;width: 1200px">
+  <div align="center">
+    <div style="display:inline-block;float:left; width: 300px; margin-top: 100px">
+	  <div>
+	  	<div style="display:inline-block;font-size:14px" id = "userName" >User Name: </div>
+      	<input type = "text"  id="userNameInput" name = "userNameInput"  value="" size = "20" />
+		<br></br>
+		<div style="display:inline-block;font-size:14px" id = "password" >Password : </div>
+	  	<input type = "password"  id="passwordInput" name = "passwordInput"  value="" size = "20" />
+		<div align="center">
+            <input type = "button"  id="restart" value = "Restart" onClick = "restart()" style="visibility: hidden;"  disabled="disabled"/>
+		    <input type = "button"  id="logOut" value = "Log Out" onClick = "logOut()" style="visibility: hidden;"  disabled="disabled"/>
+		</div>
+		<div id = "buttons">
+		<input type = "button"  id = "logIn" value = "Log In" onClick = "logIn()" >
+		<input type = "button"  id = "signUp" value = "Sign Up" onClick = "signUp()">
+		</div>
+      </div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <table style="width: 280px; min-height: 25px; line-height: 25px; text-align: center; border-collapse: collapse;margin-top: 50px">
+          <tr align="center">
+              <td id = "player1">
+                  <div id = "player1Name" >Waiting</div>
+                  <div class="roundedRectangle" id = "player1Graph" align="center"></div>
+              </td>
+              <td id = "player2">
+                  <div id = "player2Name" >Waiting</div>
+                  <div class="roundedRectangle" id = "player2Graph" align="center"></div>
+              </td>
+          </tr>
+          <tr>
+              <td >Viewer(s): </td>
+              <td id="viewerCounter">0 </td>
+          </tr>
+      </table>
+    </div>
+    <canvas id='canvas' class='canvas' width='800' height='600'style="display:inline-block;float:left" ></canvas>
+  </div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src='hockey.js'></script>
+  </body>
+</html>

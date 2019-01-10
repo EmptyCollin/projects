@@ -1,0 +1,11 @@
+ID,function,Name,Sprite,Desc
+1,1,drug bottle,assets\item1.png,Restore a small amount of life
+2,2,medical chest,assets\item2.png,Restore a lot amount of life
+3,3,saline fingers,assets\item3.png,Restore a small amount of san
+4,4,medical chest,assets\item4.png,Restore a lot amount of san
+5,0,chair,assets\item5.png,chair
+6,0,mirror,assets\item6.png,mirror
+7,0,light,assets\item7.png,light
+8,0,pan,assets\item8.png,pan
+9,0,camera,assets\item9.png,camera
+10,0,key,assets\item10.png,key

@@ -1,0 +1,30 @@
+No,Name,Overlook,Desc,U,U_type,D,D_type,N,N_type,S,S_type,W,W_type,E,E_type,Item_1,Item_2,Item_3,Enemy,Buff,Buff_Desc,Layer
+1,Belial's Palace,"This is the living room of a supreme demon .A huge Gothic Palace,with a lot of lost souls patrolling around.","This is the citadal of  Archdemon Beliel, who hired you to look for at least his new bride.",2,SAN>,0,0,0,0,0,0,0,0,0,0,"1,1","1,4","1,3","1,1,1",0,SAN1,1
+2,CU Library,A 5-floor building.,A lot of students study here and is also a good place to sleep in the 5th floor.,19,SAN130,1,SAN>,10,HP>,0,0,0,0,6,HP>,"2,1","2,4","2,3",,0,HP1,2
+3,TD Arena,Looks like a huge white egg.,A gym and also a good place to play basketball.,0,0,25,SAN>,5,SAN>,9,SAN>,0,0,0,0,"3,2","3,4","3,3","1,1",0,0,2
+4,Rideau Center,Looks like only two floors and hides more  space under the ground.,"
+Like an awful maze.You can never find out want you need.When you are in in your compass will be out of order.",22,SAN130,23,SAN>,0,0,5,SAN>,0,0,0,0,"4,2","0,0","0,0",1,0,0,2
+5,Hurdman Village,Four roads join here.,The centre of the world.Bazinga!,0,0,18,SAN>,4,SAN>,3,SAN>,8,SAN>,0,0,"5,1","0,0","0,0",,0,0,2
+6,Canal Riverside,near a river and has a little island in middle of the river.,a place you may feel very peaceful when you walk along the river.,21,SAN130,0,0,0,0,0,0,2,SAN>,8,SAN>,"6,2","0,0","0,0","1,1,1",0,0,2
+7,Airport,An Airport.,Just an Airport.So boring.,15,SAN130,0,0,8,SAN>,11,SAN>,0,0,0,0,"7,1","0,0","0,0","1,1,1",0,0,2
+8,Billings Bridge,"Not a real bridge, just is a ordinary supermarket.",A good place for shopping.You like the Walmart here.,20,SAN>,0,0,0,0,7,SAN>,6,SAN>,5,SAN>,"8,1","0,0","0,0","1,1,1",0,0,2
+9,apple Valley,A peace valley far from the city.,I can not make it up.There is nothing but red Maple leaves all the year. Nobody knows how it happens.,12,SAN130,24,SAN>,3,SAN>,0,0,0,0,0,0,"9,1","0,0","0,0","1,1,1",0,0,2
+10,Algonquin Hill,A hill?I can not see any hill at all!,You guess nothing will happen here.,17,SAN130,0,0,0,0,2,SAN>,0,0,0,0,"10,2","0,0","0,0","1,1,1",1 20,You restore your HP by 20 points,2
+11,Ontario Lake,a big lake.,May be just a big lake.,16,SAN130,14,SAN>,7,SAN>,0,0,0,0,0,0,"11,1","0,0","0,0","1,1,1",2 20,You restore your SAN by 20 points,2
+12,Apple tree garden,A big garden is filled with apple trees and neither tree has an apple on it.,Seems a golden apple tree garden without any apples.,0,0,9,SAN>,0,0,0,0,16,HP>,0,0,"12,1","12,4","12,3","1,1,1",1 10,You restore your SAN by 10 points,3
+13,Heaven Gate,Aenomous bright  gate.You can see beautiful sculoture on it surface.,It is too ennomous to go to its back.You wonder what is in the gate but you can not open it.,0,0,0,0,100,SAN>,20,HP>,17,SAN>,22,SAN>,"13,1","13,4","13,3","1,1,1",0,0,3
+14,Avalon,an island surrounding by a beautiful lake,"You gonna to the island. The lake is shallow.But no mater how far you have walked,the distance between you and the island never change a cenimeter.",11,SAN>,0,0,0,0,0,0,0,0,24,HP>,"14,2","13,4","14,3","1,1,1",0,0,1
+15,Yggdrasill,A huge tree you have never seen.And a lot of snakes fall down from the tree.,Just a tall tree and a home of lot of snake.,0,0,7,SAN>,20,HP>,0,0,0,0,0,0,"15,2","15,4","15,3","1,1,1",0,0,3
+16,"Atlantis
+","A moden city under water but you can not see any other people,you are not good at swiming! Good luck!",A test for your swimming skill. You find a lot of bottles in the sea area.,0,0,11,SAN>,0,0,0,0,0,0,12,HP>,"14,2","0,0","0,0","1,1,1",0,0,3
+17,Shangri-la,A beautiful forest.,"You can not run fast here.If you run, you will not breath any more.",0,0,10,SAN>,0,0,19,HP>,0,0,13,HP>,"13,1","13,4","10,3","1,1,1",0,0,3
+18,Wordor,You can see an red eye flows on a black mountain.,The mountain is so high to get to the top.,5,SAN>,0,0,0,0,25,HP>,0,0,0,0,"12,2","12,4","9,3","1,1,1",0,0,1
+19,Hogmarts,A big magical castle.,You can not get in to the catle.You can only see a lot of besoms fly in the sky.,0,0,2,SAN>,17,HP>,0,0,0,0,0,0,"11,2","11,4","8,3","1,1,1",0,0,3
+20,Bifrost,"
+A real rainbow bridge.You can see anything under the bridge",A bridge is just between tow place.,0,0,8,SAN>,13,HP>,15,HP>,21,HP>,0,0,"10,2","10,4","7,3","1,1,1",0,0,3
+21,Giza desert,A huge desert you can not find out its boundary.You can also see the pyrmids which is far away from you.,Check you bag to make sure you have enough water! ,0,0,6,SAN>,0,0,0,0,0,0,20,HP>,"9,2","9,4","6,3","1,1,1",10-Jan,You lose your SAN by 20 points,3
+22,Scarborough Fair,A crowd fair.,"You can get water,food and flower here. ",0,0,4,SAN>,0,0,0,0,13,HP>,0,0,"8,1","8,4","5,3","1,1,1",0,0,3
+23,Labyrinthos of Minotaur,A maze made by plants.,"You like mazes,so you want to find what is in the millde of the maze. Good luck.",4,SAN>,0,0,0,0,0,0,0,0,0,0,"7,2","7,4","4,3","1,1,1",0,0,1
+24,Black forest,Here is always at night.You can see some animals eyes hide behind trees.,Be careful with your weapons. Do you like puppies?Good luck.,9,SAN>,0,0,25,HP>,0,0,14,HP>,0,0,"6,1","6,4","3,3","1,1,1",0,0,1
+25,Iceclown Castle,A castle is in a mountain and totally built by ice. ,"Feetprints along the stairs of the palace. Although you feel very cold,  weird laughter comes from the deep dark from time to time, and you are sure someone lives there.",3,SAN>,0,0,18,HP>,24,HP>,0,0,0,0,"5,1","5,4","2,3","1,1,1",10-Feb,You lose your SAN by 20 points,1
+100,AAA,AAA,AAA,0,0,0,0,0,0,13,SAN>,0,0,0,0,"0,0","0,0","0,0","0,0",0,0,1

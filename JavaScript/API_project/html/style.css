@@ -1,0 +1,26 @@
+table {
+    width: 1050px;
+    padding: 25px;
+
+}
+td {
+    padding-bottom: 50px;
+    vertical-align:  bottom;
+}
+tr {
+    vertical-align:  bottom;
+}
+img {
+    width : 350px;
+    height: 250px;
+}
+.picture{
+    position: relative;
+    text-align: center;
+    height: 250px;
+    width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align:  bottom;
+}
