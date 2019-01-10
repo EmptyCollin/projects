@@ -1,0 +1,9 @@
+singleSpawn:	isPrime singleSpawn.c isPrime.c
+	gcc -o singleSpawn singleSpawn.c
+	
+isPrime:	isPrime.c
+	gcc -o isPrime isPrime.c
+
+clean:
+	rm -f isPrime
+	rm -f singleSpawn
